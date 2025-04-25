@@ -63,7 +63,8 @@ plt.title("Grayscale Image Histogram (Normalized)")
 plt.xlabel("Pixel Intensity")
 plt.ylabel("Normalized Pixel Count")
 ```
-![Screenshot 2025-04-22 153803](https://github.com/user-attachments/assets/6613c660-41b5-4ae4-98a3-18e5b2d65e49)
+![Screenshot 2025-04-25 215953](https://github.com/user-attachments/assets/70007157-37b0-4710-b9ca-47f3f6280a9d)
+
 ```python
 plt.plot(hist_r, color='red')
 plt.plot(hist_b, color='blue')
@@ -73,7 +74,8 @@ plt.xlabel("Pixel Intensity")
 plt.ylabel("Normalized Pixel Count")
 plt.show()
 ```
-![Screenshot 2025-04-22 153811](https://github.com/user-attachments/assets/6a0ef327-06b1-44e5-8f5f-29d194575314)
+![Screenshot 2025-04-25 220005](https://github.com/user-attachments/assets/f31f935e-5d7f-4902-8864-c2a664fc13e1)
+
 ```python
 equalized_grey_img = cv2.equalizeHist(gray_image)
 plt.title("Equalized Hist of Gray Image")
@@ -88,11 +90,9 @@ plt.show()
 ![Screenshot 2025-04-22 153750](https://github.com/user-attachments/assets/04c49850-6be1-42c5-86a5-e57881d7ddaf)
 
 ### Histogram of Grayscale Image and any channel of Color Image
+![Screenshot 2025-04-25 215953](https://github.com/user-attachments/assets/f3f01495-077c-4a45-95ad-b029c45f05ce)
 
-![Screenshot 2025-04-22 153803](https://github.com/user-attachments/assets/31668e6a-9c0f-459d-951e-2ee1a0cfdb7a)
-
-![Screenshot 2025-04-22 153811](https://github.com/user-attachments/assets/622e2c68-0ab9-4806-b21b-89973c18b818)
-
+![Screenshot 2025-04-25 220005](https://github.com/user-attachments/assets/ed86c23f-23bc-4ef1-a108-90746b574147)
 ### Histogram Equalization of Grayscale Image.
 ![Screenshot 2025-04-22 153817](https://github.com/user-attachments/assets/14ca924d-6e98-4d40-9ad3-65827ebc4117)
 
