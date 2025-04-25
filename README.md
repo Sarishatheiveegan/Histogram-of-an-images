@@ -39,20 +39,23 @@ hist_g = cv2.calcHist([color_img], [1], None, [256], [0, 256])
 hist_r = cv2.calcHist([color_img], [2], None, [256], [0, 256])
 plt.figure(figsize=(12, 5))
 ```
-![Screenshot 2025-04-22 153734](https://github.com/user-attachments/assets/205f76c1-a313-420d-852d-9d29f17e49f2)
+![Screenshot 2025-04-25 220703](https://github.com/user-attachments/assets/cee4a833-868a-4e4a-a749-1aa3be603200)
+
 ```python
 plt.imshow(gray_image, cmap='gray')
 plt.title('Grayscale Image')
 plt.axis('off')
 ```
-![Screenshot 2025-04-22 153742](https://github.com/user-attachments/assets/84271646-39d5-4d96-82f0-d1093baabadc)
+![Screenshot 2025-04-25 220336](https://github.com/user-attachments/assets/0483241f-1c71-46a1-9e33-edeaa7ff42f8)
+
 ```python
 plt.imshow(cv2.cvtColor(color_img, cv2.COLOR_BGR2RGB))
 plt.title('Color Image')
 plt.axis('off')
 plt.show()
 ```
-![Screenshot 2025-04-22 153750](https://github.com/user-attachments/assets/cce140c5-874d-4ba2-97ff-1f8ec48e94dc)
+![Screenshot 2025-04-25 220343](https://github.com/user-attachments/assets/677e97c5-e88b-4b35-9edf-2b9301fd0232)
+
 ```python
 plt.figure(figsize=(12, 5))
 ```
@@ -86,8 +89,10 @@ plt.show()
 
 ## Output:
 ### Input Grayscale Image and Color Image
-![Screenshot 2025-04-22 153742](https://github.com/user-attachments/assets/39b89a3a-b613-40d8-a621-4548549c2f56)
-![Screenshot 2025-04-22 153750](https://github.com/user-attachments/assets/04c49850-6be1-42c5-86a5-e57881d7ddaf)
+![Screenshot 2025-04-25 220343](https://github.com/user-attachments/assets/2da6b95b-eea8-43c9-a5fb-f8bb9f96bf80)
+
+![Screenshot 2025-04-25 220336](https://github.com/user-attachments/assets/159c37a2-d9b2-4eaa-977f-54a753c5471f)
+
 
 ### Histogram of Grayscale Image and any channel of Color Image
 ![Screenshot 2025-04-25 215953](https://github.com/user-attachments/assets/f3f01495-077c-4a45-95ad-b029c45f05ce)
