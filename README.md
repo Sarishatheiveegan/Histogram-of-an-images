@@ -41,14 +41,12 @@ plt.figure(figsize=(12, 5))
 ```
 ![Screenshot 2025-04-22 153734](https://github.com/user-attachments/assets/205f76c1-a313-420d-852d-9d29f17e49f2)
 ```python
-plt.subplot(1, 2, 1)
 plt.imshow(gray_image, cmap='gray')
 plt.title('Grayscale Image')
 plt.axis('off')
 ```
 ![Screenshot 2025-04-22 153742](https://github.com/user-attachments/assets/84271646-39d5-4d96-82f0-d1093baabadc)
 ```python
-plt.subplot(1, 2, 2)
 plt.imshow(cv2.cvtColor(color_img, cv2.COLOR_BGR2RGB))
 plt.title('Color Image')
 plt.axis('off')
@@ -60,7 +58,6 @@ plt.figure(figsize=(12, 5))
 ```
 ![Screenshot 2025-04-22 153756](https://github.com/user-attachments/assets/6c8a93ff-28e7-42f4-82ee-a688d5bdedd5)
 ```python
-plt.subplot(1, 2, 1)
 plt.plot(gray_hist, color='black')
 plt.title("Grayscale Image Histogram (Normalized)")
 plt.xlabel("Pixel Intensity")
@@ -68,7 +65,6 @@ plt.ylabel("Normalized Pixel Count")
 ```
 ![Screenshot 2025-04-22 153803](https://github.com/user-attachments/assets/6613c660-41b5-4ae4-98a3-18e5b2d65e49)
 ```python
-plt.subplot(1, 2, 2)
 plt.plot(hist_r, color='red')
 plt.plot(hist_b, color='blue')
 plt.plot(hist_g, color='green')
